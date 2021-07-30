@@ -14,10 +14,10 @@ func createBaseHeader() req.QueryParam {
 	defaultQS := req.QueryParam{
 		"platform":    "2",
 		"gkey":        "000000",
-		"app_version": "4.0.0.6.2", // 版本号可能会旧
-		"versioncode": "20141433",
-		"market_id":   "floor_huluxia",
-		"device_code": "%5Bw%5D02%3A00%3A00%3A00%3A00%3A00-%5Bi%5D008796755300310", // !
+		"app_version": "4.1.0.5", // 版本号可能会旧
+		"versioncode": "20141452",
+		"market_id":   "floor_web",
+		"device_code": "%5Bw%5D02%3A00%3A00%3A00%3A00%3A00-%5Bi%5D008123555300310", // !
 	}
 	return defaultQS
 }
